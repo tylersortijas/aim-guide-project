@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FC4F4F;
+    padding: 5px 25px;
+    color: #0F0E0E;
+    font-family: 'Merriweather', serif;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+
+nav ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ffff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0F0E0E;
+}
+
+.title {
+    padding: 30%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), #fc4f4f), url(../images/background-title-val.jpeg);
+    color: #ffff;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.title h1 {
+    font-size: 2rem;
+}
+
+.you {
+    color: #FC4F4F;
+    text-decoration: underline;
+}
+
+.tools {
+    margin: 60px 0;
+    text-align: center;
+}
+
+.maximum {
+    color: #FC4F4F;
+    text-decoration: underline;
+}
+
+.tools h2 {
+    font-size: 2em;
+    margin-bottom: 60px;
+    font-family: 'Merriweather', serif;
+}
+
+.tool-col {
+    width: 50%;
+}
+
+.tool-col img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.tool-box {
+    display: flex;
+    align-items: center;
+}
+
+.tool-txt h3 {
+    color: #FC4F4F;
+    font-family: 'Merriweather', serif;
+    font-size: 1.50rem;
+}
+
+.tool-txt p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.10rem;
+    line-height: 2;
+}
+
+hr {
+    color: #FC4F4F;
+    width: 4%;
+    border: dotted 6px;
+    border-bottom: none;
+    margin: 100px auto;
+}
+
+.review h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+}
+
+.user-review {
+    margin: 0 auto;
+    background-color: #FC4F4F;
+    border-radius: 10px;
+    width: 80%;
+    padding: 50px 50px;
+    color: #ffff;
+    font-size: 1.15rem;
+    line-height: 2;
+}
+
+.name {
+    text-align: right;
+}
+
+.footer {
+    color: #ffff;
+    background-color: #FC4F4F;
+    padding: 40px;
+    text-align: center;
+    font-size: .75rem;
+    margin-top: 75px;
+    font-family: 'Merriweather', serif;
+}
